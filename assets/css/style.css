@@ -1,20 +1,75 @@
 /* for prof pic */
+body {
+  background-image: url("papyrus.png");
+}
 
 img {
   max-height: 200px;
   height: auto;
 }
 
+.test {
+  background-color: #4aaaa5;
+  width: 100%;
+  height: 58px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
 
+.footer {
+  background-color: #666666;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
 
+#copyright {
+  color: #cccccc;
+  text-align: center;
+  font-size: x-small;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
 
+.border-bottom {
+  border-bottom: 2px solid #cccccc;
+}
 
+#name {
+  background-color: #4aaaa5;
+  color: white;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
 
+.container {
+  width: 100%;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
 
+.navbar {
+  min-height: 60px;
+  margin: 0;
+}
 
-
-
-
+.navbar-brand {
+  padding: 0 15px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+}
 
 
 
